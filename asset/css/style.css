@@ -76,7 +76,6 @@ main {
     display: flex;
     height: calc(100vh - 10rem);
     gap: 1rem;
-
 }
 
 main #content {
