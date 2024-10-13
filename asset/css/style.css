@@ -1,7 +1,7 @@
 /* Poppins Regular */
 @font-face {
     font-family: "poppins";
-    src:url("asset/font/Poppins-Regular.ttf") format('truetype');
+    src:url("../font/Poppins-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Poppins Bold */
 @font-face {
     font-family: "poppins";
-    src:url("asset/font/Poppins-Bold.ttf") format('truetype');
+    src:url("../font/Poppins-Bold.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
