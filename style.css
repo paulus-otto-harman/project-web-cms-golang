@@ -111,6 +111,15 @@ dialog {
     margin: auto;
 }
 
+dialog .buttons {
+    text-align: right;
+    padding: 0.5em 1em;
+}
+
+dialog #btn-close {
+    text-decoration: none;
+}
+
 /* utilities */
 .hidden {
     display: none !important;
