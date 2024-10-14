@@ -60,6 +60,7 @@ nav ul li a {
 }
 
 /* layout */
+/* header */
 header {
     margin: 1em 0;
 }
@@ -72,6 +73,7 @@ footer {
     margin-top:2rem;
 }
 
+/* main content */
 main {
     display: flex;
     height: calc(100vh - 10rem);
@@ -88,7 +90,24 @@ main #content {
 
 main #content section {
     height: 100%;
+}
 
+form {
+    
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    line-height: 3em;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1em;
 }
 
 /* preview modal */

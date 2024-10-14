@@ -40,7 +40,11 @@
             <section id="tagline">
                 <h2>Tagline</h2>
                 <form action="#" method="post">
-                    <button class="btn-save">Simpan</button>
+                    <div>
+                        <label for="txt-tagline">Tagline</label>
+                        <input type="text" name="tagline" id="txt-tagline">
+                    </div>
+                    <button id="btn-tagline">Simpan</button>
                 </form>
 
             </section>
@@ -50,7 +54,15 @@
                 <h2>Skills</h2>
                 <table><tbody></tbody></table>
                 <form action="#" method="post">
-
+                    <div>
+                        <label for="txt-skill">Skill</label>
+                        <input type="text" name="skill" id="txt-skill">
+                    </div>
+                    <div>
+                        <label for="txt-level">Level</label>
+                        <input type="text" name="level" id="txt-level">
+                    </div>
+                    <button id="btn-tambah-skill">Tambah</button>
                 </form>
             </section>
 
@@ -59,7 +71,23 @@
                 <h2>Experiences</h2>
                 <table><tbody></tbody></table>
                 <form action="#" method="post">
-
+                    <div>
+                        <label for="txt-periode">Periode</label>
+                        <input type="text" name="periode" id="txt-periode">
+                    </div>
+                    <div>
+                        <label for="txt-posisi">Posisi</label>
+                        <input type="text" name="posisi" id="txt-posisi">
+                    </div>
+                    <div>
+                        <label for="txt-perusahaan">Perusahaan</label>
+                        <input type="text" name="perusahaan" id="txt-perusahaan">
+                    </div>
+                    <div>
+                        <label for="txt-deskripsi">Deskripsi</label>
+                        <input type="text" name="level" id="txt-deskripsi">
+                    </div>
+                    <button id="btn-tambah-experience">Tambah</button>
                 </form>
             </section>
 
@@ -67,6 +95,14 @@
             <section id="contact" class="hidden">
                 <h2>Contact</h2>
                 <form action="#" method="post">
+                    <div>
+                        <label for="txt-email">Email</label>
+                        <input type="email" name="email" id="txt-email">
+                    </div>
+                    <div>
+                        <label for="txt-phone">Phone</label>
+                        <input type="tel" name="phone" id="txt-phone">
+                    </div>
                     <button class="btn-save">Simpan</button>
                 </form>
             </section>
@@ -75,6 +111,10 @@
             <section id="about" class="hidden">
                 <h2>About</h2>
                 <form action="#" method="post">
+                    <div>
+                        <label for="txt-about"></label>
+                        <textarea name="about" id="txt-about" row="6" cols="60"></textarea>
+                    </div>
                     <button class="btn-save">Simpan</button>
                 </form>
             </section>
